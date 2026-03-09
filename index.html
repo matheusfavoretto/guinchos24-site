@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aluguel de Brinquedos para Festa Infantil | Pula Pula, Infláveis e Muito Mais</title>
+
+<meta name="description" content="Aluguel de brinquedos para festa infantil. Pula pula, cama elástica, piscina de bolinhas, tobogã inflável, castelo inflável e muito mais. Reserva rápida pelo WhatsApp.">
+
+<meta name="keywords" content="aluguel de brinquedos, brinquedos para festa infantil, pula pula aluguel, cama elastica aluguel, piscina de bolinhas aluguel, brinquedos inflaveis festa">
+
+<meta name="author" content="Favoretto Brinquedos">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<h1>🎉 Favoretto Brinquedos</h1>
+
+<nav>
+<a href="#brinquedos">Brinquedos</a>
+<a href="#reserva">Reservar</a>
+<a href="#vantagens">Vantagens</a>
+<a href="#regras">Regras</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Aluguel de Brinquedos para Festa Infantil</h2>
+
+<p id="cidade"></p>
+
+<p>
+Escolha o brinquedo ideal para sua festa e finalize a reserva diretamente pelo WhatsApp.
+</p>
+
+</section>
+
+<section id="brinquedos" class="catalogo">
+
+<h2>Catálogo de Brinquedos</h2>
+
+<div class="grid">
+
+<div class="card"><img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30"><h3>Pula Pula</h3><p>R$150</p><button onclick="selecionar('Pula Pula',150)">Reservar</button></div>
+
+<div class="card"><img src="https://images.unsplash.com/photo-1561501878-aabd62634533"><h3>Cama Elástica</h3><p>R$180</p><button onclick="selecionar('Cama Elástica',180)">Reservar</button></div>
+
+<div class="card"><img src="https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8"><h3>Piscina de Bolinhas</h3><p>R$120</p><button onclick="selecionar('Piscina de Bolinhas',120)">Reservar</button></div>
+
+<div class="card"><img src="https://images.unsplash.com/photo-1608889175119-7c3f1a1c0d3b"><h3>Castelo Inflável</h3><p>R$220</p><button onclick="selecionar('Castelo Inflável',220)">Reservar</button></div>
+
+<div class="card"><img src="https://images.unsplash.com/photo-1565372913779-95f0c63f47fa"><h3>Tobogã Inflável</h3><p>R$250</p><button onclick="selecionar('Tobogã Inflável',250)">Reservar</button></div>
+
+<div class="card"><img src="https://images.unsplash.com/photo-1592659762303-90081d34b277"><h3>Escorregador Inflável</h3><p>R$200</p><button onclick="selecionar('Escorregador Inflável',200)">Reservar</button></div>
+
+<div class="card"><img src="https://images.unsplash.com/photo-1601568870191-8d6b5e7d55ce"><h3>Futebol de Sabão</h3><p>R$300</p><button onclick="selecionar('Futebol de Sabão',300)">Reservar</button></div>
+
+<div class="card"><img src="https://images.unsplash.com/photo-1607453998774-d533f65dac99"><h3>Guerra de Cotonete</h3><p>R$280</p><button onclick="selecionar('Guerra de Cotonete',280)">Reservar</button></div>
+
+<div class="card"><img src="https://images.unsplash.com/photo-1560840067-ddcaeb7831d2"><h3>Touro Mecânico</h3><p>R$450</p><button onclick="selecionar('Touro Mecânico',450)">Reservar</button></div>
+
+<div class="card"><img src="https://images.unsplash.com/photo-1608889825205-eebdb9fc5806"><h3>Mini Tobogã</h3><p>R$140</p><button onclick="selecionar('Mini Tobogã',140)">Reservar</button></div>
+
+</div>
+
+</section>
+
+<section id="reserva" class="reserva">
+
+<h2>Finalizar Reserva</h2>
+
+<p id="brinquedo"></p>
+
+<label>Data de retirada</label>
+<input type="date" id="retirada">
+
+<label>Data de devolução</label>
+<input type="date" id="devolucao">
+
+<button onclick="enviar()">Reservar pelo WhatsApp</button>
+
+</section>
+
+<section id="vantagens" class="vantagens">
+
+<h2>Por que escolher a Favoretto Brinquedos?</h2>
+
+<div class="vantagens-grid">
+
+<div>🚚 Entrega rápida</div>
+<div>🧼 Brinquedos higienizados</div>
+<div>⭐ Equipamentos novos</div>
+<div>📞 Atendimento rápido</div>
+
+</div>
+
+</section>
+
+<section id="regras" class="regras">
+
+<h2>Regras do Aluguel</h2>
+
+<ul>
+<li>Reserva confirmada com pagamento de <b>50%</b></li>
+<li>Restante de <b>50%</b> na devolução</li>
+<li>Prazo máximo de aluguel: <b>2 dias</b></li>
+<li>Após 2 dias será cobrado <b>10% ao dia</b></li>
+</ul>
+
+</section>
+
+<footer>
+
+<p>© 2026 Favoretto Brinquedos</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
