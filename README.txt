@@ -1,18 +1,30 @@
-Guincho Site
+SITE PREMIUM DE GUINCHO
 
-Estrutura do projeto:
+ARQUIVOS:
+- index.html
+- style.css
+- script.js
+- README.txt
 
-guincho-site
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.txt
+ESTA VERSÃO JÁ TEM:
+- visual premium
+- seção de serviços
+- seção de vantagens
+- mapa da rota
+- cidades atendidas
+- depoimentos de exemplo
+- FAQ
+- botões fortes de ação
+- layout melhor no celular
 
-Passos para usar:
+COMO COLOCAR NO GITHUB:
+1. Baixe este ZIP
+2. Extraia a pasta
+3. Entre no seu repositório no GitHub
+4. Apague os arquivos antigos index.html, style.css, script.js e README.txt
+5. Envie os novos arquivos
+6. Atualize o site depois de alguns segundos
 
-1. Crie um repositório no GitHub.
-2. Envie todos os arquivos desta pasta.
-3. Ative o GitHub Pages nas configurações do repositório.
-4. Substitua SUA_CHAVE_GOOGLE no index.html pela sua chave da API do Google Maps.
-5. O site ficará online automaticamente.
+IMPORTANTE:
+No index.html, troque SUA_CHAVE_GOOGLE pela sua chave real da API do Google Maps.
+Sem isso, o cálculo e o mapa não funcionarão.
